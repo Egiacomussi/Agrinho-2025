@@ -20,3 +20,13 @@
         width: 100%;
     }
 }
+/* Variáveis */
+:root {
+    --primary-color: #556B2F;
+    --secondary-color: #6D8A49;
+    --text-color: #024959;
+    --background-color: #F2E3D5;
+    --button-hover: #012E40;
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
