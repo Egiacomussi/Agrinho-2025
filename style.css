@@ -1,4 +1,56 @@
-/* código omitido */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Variáveis */
+:root {
+    --primary-color: #6D8A49; /* Verde musgo */
+    --secondary-color: #8A9A5B; /* Verde mais claro */
+    --text-color: #556B2F; /* Verde oliva escuro */
+    --background-color: #F2E3D5; /* Mantendo o bege claro */
+    --button-hover: #3D522B; /* Verde mais escuro para hover */
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Elementos */
+h3 {
+    color: var(--text-color);
+    margin-top: 25px;
+}
+
+p {
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+img {
+    max-width: 90%;
+}
+
+/* Botões */
+.cta-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: var(--button-hover);
+}
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -20,43 +72,3 @@
         width: 100%;
     }
 }
-/* Variáveis */
-:root {
-    /* Variáveis */
-:root {
-    --primary-color: #6D8A49; /* Verde musgo */
-    --secondary-color: #8A9A5B; /* Verde mais claro */
-    --text-color: #556B2F; /* Verde oliva escuro */
-    --background-color: #F2E3D5; /* Mantendo o bege claro */
-    --button-hover: #3D522B; /* Verde mais escuro para hover */
-    --font-body: "Chocolate Classical Sans", serif;
-    --font-titulo: "Rakkas", serif;
-}
-
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-body);
-}
-
-/* Corpo da página */
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    line-height: 1.6;
-}
-
-h3 {
-    margin-top: 25px;
-}
-
-p {
-    margin-top: 20px;
-}
-
-img {
-    max-width: 90%;
-}
-
