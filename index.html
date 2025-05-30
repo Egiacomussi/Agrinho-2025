@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,17 +10,8 @@
 <body>
     <header>
         <h1>Impacto do Desmatamento</h1>
-
-        <div class="carousel">
-            <div class="carousel-inner">
-                <img src="imagem1.jpg" alt="Imagem sobre desmatamento">
-                <img src="imagem2.jpg" alt="Imagem sobre impactos ambientais">
-                <img src="imagem3.jpg" alt="Imagem de áreas verdes preservadas">
-            </div>
-        </div>
-
+        <img src="cataratas-do-iguacu.jpg" alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada.">
         <p>O desmatamento intensifica fenômenos negativos no meio ambiente e na vida das pessoas, afetando enchentes, temperatura e qualidade de vida.</p>
-
         <nav>
             <ul>
                 <li><a href="#problemas">Os Problemas</a></li>
@@ -28,6 +20,9 @@
             </ul>
         </nav>
     </header>
+
+<!-- código omitido -->
+    <!-- código omitido -->
 
     <main>
         <section id="problemas" class="conteudo">
@@ -49,21 +44,80 @@
 
             <a href="https://www.youtube.com/watch?v=ILh7nDEKGqc&pp=ygUXSW1wYWN0byBkbyBEZXNtYXRhbWVudG8%3D" class="cta-button" target="_blank">Como impacta o mundo? <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--text-color);"></i></a>
         </section>
+
+        <section id="consequencias" class="conteudo">
+            <h2>Consequências</h2>
+            <ul>
+                <li>Aumento das enchentes e erosão do solo</li>
+                <li>Aumento das temperaturas e mudanças climáticas</li>
+                <li>Perda da biodiversidade</li>
+                <li>Redução da qualidade de vida nas cidades</li>
+                <li>Agravamento de problemas de saúde</li>
+                <li>Impacto na economia de comunidades locais</li>
+            </ul>
+        </section>
+
+        <section id="conclusao" class="conteudo">
+            <h2>Conclusão</h2>
+            <p>O desmatamento impacta diretamente a vida humana. Para evitar suas consequências, é necessário preservar o meio ambiente, investir em reflorestamento e adotar práticas sustentáveis.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ILh7nDEKGqc?si=feol6sZCHo1Cg-jQ" title="YouTube video.">
+        </section>
+
     </main>
 
     <footer>
         <a href="https://www.linkedin.com/in/femascheti" class="cta-footer">Faça parte dessa causa!</a>
         <p>2025 | @femascheti</p>
     </footer>
-
-    <script>
-        let index = 0;
-        function nextSlide() {
-            index = (index + 1) % 3;
-            document.querySelector('.carousel-inner').style.transform = `translateX(-${index * 100}%)`;
-        }
-
-        setInterval(nextSlide, 4000); // Troca as imagens a cada 4 segundos
-    </script>
 </body>
 </html>
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+/* Variáveis */
+:root {
+    --primary-color: #6D8A49;
+    --secondary-color:  #8A9A5B;
+    --text-color: #556B2F;
+    --background-color: #F2E3D5;
+    --button-hover: #3D522B;
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* código omitido */
+/* código omitido */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 90%;
+}
+
+/* código omitido */
+<!-- código omitido -->
+
+<img src="cataratas-do-iguac.jpg" alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada.">
+
+<!-- código omitido -->
+ 
