@@ -1,1 +1,9 @@
+/meu-projeto
+  ├── index.html
+  ├── style.css
+  ├── js/script.js
+  ├── img/
+      ├── imagem1.jpg
+      ├── imagem2.jpg
+      ├── imagem3.jpg
 
