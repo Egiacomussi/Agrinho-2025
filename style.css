@@ -52,22 +52,51 @@ img {
     background-color: var(--button-hover);
 }
 
+/* Estilos do carrossel */
+.carousel {
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 300%;
+    animation: slide 10s infinite;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
+    .carousel {
+        max-width: 100%;
+    }
     .conteudo {
         width: 90%;
     }
-
     nav ul {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     nav ul li {
         margin: 5px 0;
     }
-
     .cta-button {
         width: 100%;
     }
